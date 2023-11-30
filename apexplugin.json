@@ -1,0 +1,53 @@
+{
+   "name": "Interactive Grid Add Button",
+   "version": "22.1.0",
+   "description": "Add buttons to the Interactive Grid\u0027s toolbar and popup menus.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll UC plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003E\r\n    The \u003Cstrong\u003EUC - Interactive Grid - Add Button\u003C\/strong\u003E plug-in is a simple way for adding buttons to the Interactive Grid. Whether it\u0027s the toolbar, the actions menu, the row actions menu or the row selection menu, this plug-in allows you to extend all of these components with your own, highly customizable buttons, declaratively.\r\n\u003C\/p\u003E\r\n\u003Cp\u003E\r\n    The plug-in\u0027s settings give you fine control over the buttons position (first, last, index), look, icon, and which action should be executed when that button is clicked. You can execute a predefined action (ie. delete row), execute some JavaScript code, trigger an event, put the currently selected row(s) pk value into a page item, or even provide your own actions.\r\n\u003C\/p\u003E",
+   "keywords": [
+      "interactive grid",
+      "button",
+      "menu"
+   ],
+   "license": "MIT",
+   "commercial": "No",
+   "commercially_supported": "Yes",
+   "homepage": "https:\/\/github.com\/foex-open-source\/uc-interactive-grid-add-button",
+   "bugs": {
+      "url": "https:\/\/github.com\/foex-open-source\/uc-interactive-grid-add-button\/issues",
+      "email": "support@uc.world"
+   },
+   "author": {
+      "name": "UC GmbH",
+      "email": "office@uc.world",
+      "url": "https:\/\/foex.at\/uc\/",
+      "twitter": "@foexopensource"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https:\/\/github.com\/foex-open-source\/uc-interactive-grid-add-button.git"
+   },
+   "oracle": {
+      "versions": [
+         "12.1.0.1",
+         "12.2.0.1",
+         "18.0.0.0",
+         "19.0.0.0",
+         "21.0.0.0"
+      ],
+      "apex": {
+         "versions": [
+            "19.2.0",
+            "20.1.0",
+            "20.2.0",
+            "21.1.0",
+            "21.2.0",
+            "22.1.0"
+         ],
+         "plugin": {
+            "internalName": "UNITEDCODES_INTERACTIVE_GRID_ADD_BUTTON",
+            "type": "dynamic action",
+            "demo": "https:\/\/uc.world\/ords\/f?p=10000:2010",
+            "previewImage": "https:\/\/uc.world\/ords\/uc_master_ws\/uc-image\/COM.UC.INTERACTIVE_GRID_ADD_BUTTON"
+         }
+      }
+   }
+}
